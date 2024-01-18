@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    display:flex;
+    width:100%;
+    height: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading h2{
+    width: 97px;
+    height: 31px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+}
+.heading h3{
+    margin: 15px 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+    height: 39px;
+}
+.heading h3 span {
+    color: #106eea;
+}
+.maincart{
+    display: flex;
+    flex-direction: row;
+}
+.cart{
+    width: 216px;
+    height:313.14px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+    width: 100%;
+    height: 59.2px;
+    margin-bottom: 10px;
+}
+
+.middle1{
+    height:43.21px;
+    width: 100%;
+    display: flex;
+   flex-flow:row wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  
+}
+.middle1 sub{
+    font-size: medium;
+    vertical-align: sub;
+    text-decoration: line-through;
+   
+}
+.data p{
+    padding-bottom: 5px;
+}
+.data{
+    
+    height: 72.02px;
+    width: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background: #f8f8f8;
+    margin-top: 20px;
+    width: 100%;
+    height: 78.99px;
+}
+.btn button{
+    background: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+}

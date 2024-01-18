@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="heading">
+            <h2>pricing</h2>
+            <h3>Check our <span>Pricing</span></h3>
+        </div>
+        <div class="maincart">
+        @for(pr of pricelist; track pr){
+        <div class="cart">
+                <div class="top">
+                    <p>{{pr.id}}</p>
+                </div>
+                <div class="middle1">
+                    
+                    <span>&#8377;</span>
+                
+                <h1>{{pr.price}}<sub>&#8377;{{pr.op}}</sub></h1>
+
+                    
+                    
+                </div>
+            
+                    <div class="data">
+                        <p>Participate in any one </p>
+                        <p>of the four Olympiads</p>
+                        <p>of your choice.</p>
+                    </div>
+            
+                    
+                <div class="btn">
+                    <button>Register Now</button>
+                </div>
+            
+        </div>
+        }
+    </div>
+    </section>
+</body>
+</html>

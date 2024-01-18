@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+body{
+    height: 200px;
+    width: 100%;
+}
+img{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.navbar{
+  height: 50px;
+    
+    display: flex;
+
+    justify-content: space-between;
+    background-color: #106eea;
+    align-items: center;
+}
+.right p{
+    color: #fff;
+}
+.right{
+    padding-left: 100px;
+    display: flex;
+   align-items: center;
+   
+   z-index: 1;
+}
+.left{  
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+   
+  
+}
+.fa {
+    
+     min-width: 14px;
+    min-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-left:4px;
+    border-radius: 2px; 
+    
+  }
+.fa-facebook{
+   
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: rgb(16, 110, 234);
+   
+    /* min-width: 36px;
+    min-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 4px; */
+}
+ .fa-linkedin{
+    font-size: 13px;
+    background-color: #fff;
+    color: rgb(16, 110, 234);
+    text-decoration: none;
+}
+.fa-instagram{
+    background-color: rgb(16, 110, 234);
+    color: white;
+    text-decoration: none;
+} 
+/*********************************************/
+.olympiads{
+    box-sizing: border-box;
+    padding-left: 100px;
+    position: sticky;
+    top:0px;
+    background-color:#fff;
+    height: 86px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: .8px;
+    font-size: 30px;
+    font-family: Open Sans,sans-serif;
+    color: #444;
+}
+/********************************************/
+.reglabel{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 29px;
+   width: 100%;
+    display: flex;
+    font-family: Open Sans,sans-serif;
+    color: #444;
+    font-weight: 300;
+    justify-content: space-between;
+    background-color: #f1f6fe;
+    align-items: center;
+}
+.righ{
+    width: 80%;
+    padding-left: 100px;
+    display: flex;
+   align-items: center;
+   font-size: 14px;
+  
+ 
+}
+.lef{  
+    width: 20%;
+    padding-right: 75px;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+   font-size: 14px;
+   
+
+   
+}

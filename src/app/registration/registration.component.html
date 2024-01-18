@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="main">
+       <p class="head">FORM</p>
+       <h1>Student Registration <span>Form</span></h1>
+       <div class="outer">
+       <form [formGroup]="RegistrationForm">
+       <div class="inner"><label id="a" for="eadd">Name</label>
+        <input id="b" #Input1 formControlName="username" type="text" id="uname"/></div>
+        
+        <div class="inner"> <label id="a" for="pmail">Email</label>
+            <input id="b" #Input2 formControlName="phone" type="text" id="pnumber"/></div>
+       
+      
+       
+        <div class="inner"> <label id="a" for="pphone">Phone</label>
+            <input id="b" #Input4 formControlName="phone" type="number" id="pnumber"/></div>
+           
+        <div class="inner"> <label id="a" for="ppin">Pin Code</label>
+            <input id="b" #Input5 formControlName="pin" type="number" id="ppin"  [(ngModel)]="pin"  (keyup)="getdata()" />
+            </div>
+       
+        <div class="inner"> <label id="a" for="pcity">City</label>
+            <input id="b" #Input6 formControlName="city" type="text"  id="pcity"/>
+            </div>
+       
+        <div class="inner"><label id="a" for="phone">State</label>
+            <input id="b" #Input7 formControlName="state" type="text" id="ptext"  /></div>
+            <div class="inner"> <label id="a" for="Country">Country</label>
+                <input id="b" #Input3 formControlName="country" type="text" id="ecountry"/></div>
+        <div class="iner">
+            <p>you're a:</p>
+            <div class="iner1">
+                <input type="radio" id="scstu" name="student" value="School Student">
+              <label for="School Student">School Student</label><br>
+            </div>
+              <div class="iner2">
+                <input type="radio" id="grstu" name="student" value="Graduate / Undergraduate / Working Professional">
+              <label for="Graduate / Undergraduate / Working Professional">Graduate / Undergraduate / Working Professional</label><br>
+            </div>
+        </div>
+        
+        <button class="btn">Register</button>
+       </form>
+    </div>
+    </div>
+ 
+   
+   
+</body>
+</html>
